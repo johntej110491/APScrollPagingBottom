@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84CD6B2A200387F100D3D69B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD6B29200387F100D3D69B /* AppDelegate.swift */; };
+		84CD6B2C200387F100D3D69B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD6B2B200387F100D3D69B /* ViewController.swift */; };
+		84CD6B2F200387F100D3D69B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD6B2D200387F100D3D69B /* Main.storyboard */; };
+		84CD6B31200387F100D3D69B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CD6B30200387F100D3D69B /* Assets.xcassets */; };
+		84CD6B34200387F100D3D69B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CD6B32200387F100D3D69B /* LaunchScreen.storyboard */; };
+		84CD6B3F200387F100D3D69B /* APScrollPagingBottomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD6B3E200387F100D3D69B /* APScrollPagingBottomTests.swift */; };
+		84CD6B4A200387F100D3D69B /* APScrollPagingBottomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD6B49200387F100D3D69B /* APScrollPagingBottomUITests.swift */; };
+		84CD6B58200389C400D3D69B /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD6B57200389C400D3D69B /* APIManager.swift */; };
+		84CD6B5A20038A8200D3D69B /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CD6B5920038A8200D3D69B /* Cell.swift */; };
+		956475160CF56AAF23DA8671 /* Pods_APScrollPagingBottom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15E7AF86C131BB438CF5D6AB /* Pods_APScrollPagingBottom.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84CD6B3B200387F100D3D69B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CD6B1E200387F100D3D69B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CD6B25200387F100D3D69B;
+			remoteInfo = APScrollPagingBottom;
+		};
+		84CD6B46200387F100D3D69B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84CD6B1E200387F100D3D69B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CD6B25200387F100D3D69B;
+			remoteInfo = APScrollPagingBottom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15E7AF86C131BB438CF5D6AB /* Pods_APScrollPagingBottom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_APScrollPagingBottom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E2E593D4145D6F093FB0737 /* Pods-APScrollPagingBottom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APScrollPagingBottom.release.xcconfig"; path = "Pods/Target Support Files/Pods-APScrollPagingBottom/Pods-APScrollPagingBottom.release.xcconfig"; sourceTree = "<group>"; };
+		84B9DDCE200CB5A200E4CEC6 /* APScrollPagingBottom.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = APScrollPagingBottom.entitlements; sourceTree = "<group>"; };
+		84CD6B26200387F100D3D69B /* APScrollPagingBottom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APScrollPagingBottom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD6B29200387F100D3D69B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84CD6B2B200387F100D3D69B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84CD6B2E200387F100D3D69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84CD6B30200387F100D3D69B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CD6B33200387F100D3D69B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84CD6B35200387F100D3D69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD6B3A200387F100D3D69B /* APScrollPagingBottomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APScrollPagingBottomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD6B3E200387F100D3D69B /* APScrollPagingBottomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APScrollPagingBottomTests.swift; sourceTree = "<group>"; };
+		84CD6B40200387F100D3D69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD6B45200387F100D3D69B /* APScrollPagingBottomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APScrollPagingBottomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CD6B49200387F100D3D69B /* APScrollPagingBottomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APScrollPagingBottomUITests.swift; sourceTree = "<group>"; };
+		84CD6B4B200387F100D3D69B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CD6B57200389C400D3D69B /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIManager.swift; path = APScrollPagingBottom/APIManager.swift; sourceTree = "<group>"; };
+		84CD6B5920038A8200D3D69B /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		A06C49B05052B8D99EE0A500 /* Pods-APScrollPagingBottom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APScrollPagingBottom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APScrollPagingBottom/Pods-APScrollPagingBottom.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84CD6B23200387F100D3D69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				956475160CF56AAF23DA8671 /* Pods_APScrollPagingBottom.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD6B37200387F100D3D69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD6B42200387F100D3D69B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B18413D1362382792843DB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15E7AF86C131BB438CF5D6AB /* Pods_APScrollPagingBottom.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		78C70CF47499EFC60F8CA9E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A06C49B05052B8D99EE0A500 /* Pods-APScrollPagingBottom.debug.xcconfig */,
+				4E2E593D4145D6F093FB0737 /* Pods-APScrollPagingBottom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84CD6B1D200387F000D3D69B = {
+			isa = PBXGroup;
+			children = (
+				84CD6B57200389C400D3D69B /* APIManager.swift */,
+				84CD6B28200387F100D3D69B /* APScrollPagingBottom */,
+				84CD6B3D200387F100D3D69B /* APScrollPagingBottomTests */,
+				84CD6B48200387F100D3D69B /* APScrollPagingBottomUITests */,
+				84CD6B27200387F100D3D69B /* Products */,
+				78C70CF47499EFC60F8CA9E3 /* Pods */,
+				4B18413D1362382792843DB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84CD6B27200387F100D3D69B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84CD6B26200387F100D3D69B /* APScrollPagingBottom.app */,
+				84CD6B3A200387F100D3D69B /* APScrollPagingBottomTests.xctest */,
+				84CD6B45200387F100D3D69B /* APScrollPagingBottomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84CD6B28200387F100D3D69B /* APScrollPagingBottom */ = {
+			isa = PBXGroup;
+			children = (
+				84B9DDCE200CB5A200E4CEC6 /* APScrollPagingBottom.entitlements */,
+				84CD6B29200387F100D3D69B /* AppDelegate.swift */,
+				84CD6B2B200387F100D3D69B /* ViewController.swift */,
+				84CD6B5920038A8200D3D69B /* Cell.swift */,
+				84CD6B2D200387F100D3D69B /* Main.storyboard */,
+				84CD6B30200387F100D3D69B /* Assets.xcassets */,
+				84CD6B32200387F100D3D69B /* LaunchScreen.storyboard */,
+				84CD6B35200387F100D3D69B /* Info.plist */,
+			);
+			path = APScrollPagingBottom;
+			sourceTree = "<group>";
+		};
+		84CD6B3D200387F100D3D69B /* APScrollPagingBottomTests */ = {
+			isa = PBXGroup;
+			children = (
+				84CD6B3E200387F100D3D69B /* APScrollPagingBottomTests.swift */,
+				84CD6B40200387F100D3D69B /* Info.plist */,
+			);
+			path = APScrollPagingBottomTests;
+			sourceTree = "<group>";
+		};
+		84CD6B48200387F100D3D69B /* APScrollPagingBottomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84CD6B49200387F100D3D69B /* APScrollPagingBottomUITests.swift */,
+				84CD6B4B200387F100D3D69B /* Info.plist */,
+			);
+			path = APScrollPagingBottomUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84CD6B25200387F100D3D69B /* APScrollPagingBottom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD6B4E200387F100D3D69B /* Build configuration list for PBXNativeTarget "APScrollPagingBottom" */;
+			buildPhases = (
+				057DA467E647BD29EF2AF552 /* [CP] Check Pods Manifest.lock */,
+				84CD6B22200387F100D3D69B /* Sources */,
+				84CD6B23200387F100D3D69B /* Frameworks */,
+				84CD6B24200387F100D3D69B /* Resources */,
+				768C58820D744E8979D3F25D /* [CP] Embed Pods Frameworks */,
+				D315A47AC356CC6610549087 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APScrollPagingBottom;
+			productName = APScrollPagingBottom;
+			productReference = 84CD6B26200387F100D3D69B /* APScrollPagingBottom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CD6B39200387F100D3D69B /* APScrollPagingBottomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD6B51200387F100D3D69B /* Build configuration list for PBXNativeTarget "APScrollPagingBottomTests" */;
+			buildPhases = (
+				84CD6B36200387F100D3D69B /* Sources */,
+				84CD6B37200387F100D3D69B /* Frameworks */,
+				84CD6B38200387F100D3D69B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CD6B3C200387F100D3D69B /* PBXTargetDependency */,
+			);
+			name = APScrollPagingBottomTests;
+			productName = APScrollPagingBottomTests;
+			productReference = 84CD6B3A200387F100D3D69B /* APScrollPagingBottomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84CD6B44200387F100D3D69B /* APScrollPagingBottomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CD6B54200387F100D3D69B /* Build configuration list for PBXNativeTarget "APScrollPagingBottomUITests" */;
+			buildPhases = (
+				84CD6B41200387F100D3D69B /* Sources */,
+				84CD6B42200387F100D3D69B /* Frameworks */,
+				84CD6B43200387F100D3D69B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84CD6B47200387F100D3D69B /* PBXTargetDependency */,
+			);
+			name = APScrollPagingBottomUITests;
+			productName = APScrollPagingBottomUITests;
+			productReference = 84CD6B45200387F100D3D69B /* APScrollPagingBottomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84CD6B1E200387F100D3D69B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84CD6B25200387F100D3D69B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GL2KD24SJM;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					84CD6B39200387F100D3D69B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GL2KD24SJM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CD6B25200387F100D3D69B;
+					};
+					84CD6B44200387F100D3D69B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = GL2KD24SJM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84CD6B25200387F100D3D69B;
+					};
+				};
+			};
+			buildConfigurationList = 84CD6B21200387F100D3D69B /* Build configuration list for PBXProject "APScrollPagingBottom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84CD6B1D200387F000D3D69B;
+			productRefGroup = 84CD6B27200387F100D3D69B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84CD6B25200387F100D3D69B /* APScrollPagingBottom */,
+				84CD6B39200387F100D3D69B /* APScrollPagingBottomTests */,
+				84CD6B44200387F100D3D69B /* APScrollPagingBottomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CD6B24200387F100D3D69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD6B34200387F100D3D69B /* LaunchScreen.storyboard in Resources */,
+				84CD6B31200387F100D3D69B /* Assets.xcassets in Resources */,
+				84CD6B2F200387F100D3D69B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD6B38200387F100D3D69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD6B43200387F100D3D69B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		057DA467E647BD29EF2AF552 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		768C58820D744E8979D3F25D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APScrollPagingBottom/Pods-APScrollPagingBottom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D315A47AC356CC6610549087 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APScrollPagingBottom/Pods-APScrollPagingBottom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84CD6B22200387F100D3D69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD6B58200389C400D3D69B /* APIManager.swift in Sources */,
+				84CD6B5A20038A8200D3D69B /* Cell.swift in Sources */,
+				84CD6B2C200387F100D3D69B /* ViewController.swift in Sources */,
+				84CD6B2A200387F100D3D69B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD6B36200387F100D3D69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD6B3F200387F100D3D69B /* APScrollPagingBottomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CD6B41200387F100D3D69B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CD6B4A200387F100D3D69B /* APScrollPagingBottomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84CD6B3C200387F100D3D69B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CD6B25200387F100D3D69B /* APScrollPagingBottom */;
+			targetProxy = 84CD6B3B200387F100D3D69B /* PBXContainerItemProxy */;
+		};
+		84CD6B47200387F100D3D69B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CD6B25200387F100D3D69B /* APScrollPagingBottom */;
+			targetProxy = 84CD6B46200387F100D3D69B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84CD6B2D200387F100D3D69B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CD6B2E200387F100D3D69B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84CD6B32200387F100D3D69B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84CD6B33200387F100D3D69B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84CD6B4C200387F100D3D69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84CD6B4D200387F100D3D69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84CD6B4F200387F100D3D69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A06C49B05052B8D99EE0A500 /* Pods-APScrollPagingBottom.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = APScrollPagingBottom/APScrollPagingBottom.entitlements;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APScrollPagingBottom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ypsilon.APScrollPagingBottom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84CD6B50200387F100D3D69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E2E593D4145D6F093FB0737 /* Pods-APScrollPagingBottom.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = APScrollPagingBottom/APScrollPagingBottom.entitlements;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APScrollPagingBottom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ypsilon.APScrollPagingBottom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		84CD6B52200387F100D3D69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APScrollPagingBottomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ypsilon.APScrollPagingBottomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APScrollPagingBottom.app/APScrollPagingBottom";
+			};
+			name = Debug;
+		};
+		84CD6B53200387F100D3D69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APScrollPagingBottomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ypsilon.APScrollPagingBottomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/APScrollPagingBottom.app/APScrollPagingBottom";
+			};
+			name = Release;
+		};
+		84CD6B55200387F100D3D69B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APScrollPagingBottomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ypsilon.APScrollPagingBottomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = APScrollPagingBottom;
+			};
+			name = Debug;
+		};
+		84CD6B56200387F100D3D69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GL2KD24SJM;
+				INFOPLIST_FILE = APScrollPagingBottomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.ypsilon.APScrollPagingBottomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = APScrollPagingBottom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84CD6B21200387F100D3D69B /* Build configuration list for PBXProject "APScrollPagingBottom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD6B4C200387F100D3D69B /* Debug */,
+				84CD6B4D200387F100D3D69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD6B4E200387F100D3D69B /* Build configuration list for PBXNativeTarget "APScrollPagingBottom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD6B4F200387F100D3D69B /* Debug */,
+				84CD6B50200387F100D3D69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD6B51200387F100D3D69B /* Build configuration list for PBXNativeTarget "APScrollPagingBottomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD6B52200387F100D3D69B /* Debug */,
+				84CD6B53200387F100D3D69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CD6B54200387F100D3D69B /* Build configuration list for PBXNativeTarget "APScrollPagingBottomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CD6B55200387F100D3D69B /* Debug */,
+				84CD6B56200387F100D3D69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84CD6B1E200387F100D3D69B /* Project object */;
+}
